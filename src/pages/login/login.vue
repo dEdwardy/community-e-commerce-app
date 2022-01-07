@@ -7,15 +7,20 @@
       <view class="p1">好吃好喝</view>
       <view class="p2">一家只卖当日菜的社区电商</view>
       <view class="buttons">
-        <button class="phone" type="default">手机号登陆</button>
-        <button class="wx" type="default">微信登陆</button>
+        <button class="phone" @click="handleLoginByPhone" type="default">手机号登陆</button>
+        <button class="wx" @click="handleLoginByWx" type="default">微信登陆</button>
       </view>
     </view>
 	</view>
 </template>
 
 <script setup> 
-
+const handleLoginByPhone = () => {
+  console.log('handleLoginByPhone')
+}
+const handleLoginByWx = () => {
+  console.log('handleLoginByWx')
+}
 </script>
 
 <style lang="scss" scoped>
