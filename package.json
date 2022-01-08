@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@dcloudio/uni-app": "^3.0.0-alpha-3030420211227002",
-    "@dcloudio/uni-app-plus": "^3.0.0-alpha-3030420211227002",
+    "@dcloudio/uni-app-plus": "^0.0.253",
     "@dcloudio/uni-components": "^3.0.0-alpha-3030420211227002",
     "@dcloudio/uni-h5": "^3.0.0-alpha-3030420211227002",
     "@dcloudio/uni-mp-alipay": "^3.0.0-alpha-3030420211227002",
@@ -44,6 +44,8 @@
     "@dcloudio/uni-mp-toutiao": "^3.0.0-alpha-3030420211227002",
     "@dcloudio/uni-mp-weixin": "^3.0.0-alpha-3030420211227002",
     "@dcloudio/uni-quickapp-webview": "^3.0.0-alpha-3030420211227002",
+    "axios": "^0.24.0",
+    "axios-miniprogram-adapter": "^0.3.2",
     "pinia": "^2.0.0-rc.10",
     "vue": "^3.2.26",
     "vue-i18n": "^9.1.9",
@@ -57,6 +59,7 @@
     "autoprefixer": "^10.4.0",
     "sass": "^1.46.0",
     "sass-loader": "^12.4.0",
+    "svg-sprite-loader": "^6.0.11",
     "vite": "^2.7.7"
   }
 }
